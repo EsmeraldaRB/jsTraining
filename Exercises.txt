@@ -1,0 +1,29 @@
+1. Print all John Doe's skills.
+
+2. Print the ammount of John Doe's skills.
+
+3. Using the ES6 'forEach' function, loop over John Doe's skills and print them, all the words in uppercase.
+
+4. Using the ES6 'forEach' function, loop over John Doe's skills and print them, all the words in uppercase and preceded by a consecutive index (make sure to use JS interpolation).
+e.g.: 1. DEVOPS, 2. SECURITY ...
+
+5. Using the ES6 filter function create an array with all the subjects and scores which their score is equal or greater than 85.
+E.g. [{ subject: 'math', score: 95 } ... { subject: 'programming', score: 90 } ]
+
+6. Using forEach function, loop over grades and add a property called 'plus' to each object, this new property should have the score value plus 10.
+E.g. [{ subject: 'math', score: 95, plus: 105 } ... { subject: 'cooking', score: 80, plus: 90 } ]
+
+7. Get all first level keys' names in an array, sort them in ascending order, and print them.
+
+8. Print a phrase with John Doe's complete phone number like: "John Doe's phone is: 33 - 1827365", make sure to use JS interpolation.
+
+9. Taking into consideration that 'interests' property is not an iterable object:
+Print a phrase for each topic with its level of interest like: "Interest for devOps is medium", make sure to use JS interpolation.
+
+10. Taking into consideration that 'address' property is not an iterable object:
+Using the ES6 map function, create an array with John Doe's address' values. E.g. ['Lázaro Cárdenas', 900, 'Centro', ... ] 
+
+11. Create a txt file, its name must be John Doe's id, then write on it:
+- John Doe's skills, indexed (as on step 4) using a forEach function.
+- John Doe's data related to his addres, each line has to have a format like: 'Street is Lázaro Cárdenas', 'number is 900' ... Use forEach and interpolation.
+- John Doe's data related to grades, each line has to have a format like: 'grade for math is 95', 'grade for science is 80' ... Use forEach and interpolation.

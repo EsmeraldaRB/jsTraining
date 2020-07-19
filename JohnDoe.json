@@ -1,0 +1,46 @@
+{
+    "id": 123456789,
+    "name": "John",
+    "lastName": "Doe",
+    "age": 17,
+    "phone": {
+        "lada": 33,
+        "number": 18273645
+    },
+    "address": {
+        "street": "Lázaro Cárdenas",
+        "number": 900,
+        "zone": "Centro",
+        "zipCode": 45500,
+        "city": "Guadalajara",
+        "state": "Jalisco"
+    },
+    "skills": [
+        "c#",
+        "sql",
+        "React",
+        "English",
+        "JavaScript",
+        "Algorithms"
+    ],
+    "grades": [
+        { "subject": "math", "score": 95 },
+        { "subject": "science", "score": 80 },
+        { "subject": "Literature", "score": 85 },
+        { "subject": "physics", "score": 75 },
+        { "subject": "history", "score": 95 },
+        { "subject": "economics", "score": 70 },
+        { "subject": "programming", "score": 90 },
+        { "subject": "cooking", "score": 80 }
+    ],
+    "interests": {
+        "devOps": "medium",
+        "security": "high",
+        "node": "high",
+        "angular": "medium",
+        "design": "low",
+        "DB2": "low",
+        "management": "high"
+    },
+    "degree": "Computer Science"
+}
